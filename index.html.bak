@@ -90,7 +90,6 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
           <h3>Alex Huang</h3>
           <p class="w3-opacity">Mechanical</p>
           <p>To Fill.</p>
-          
         </div>
       </div>
     </div>
@@ -110,7 +109,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <div class="w3-card-4">
         <img src="/screenshots/Abhishank.jpg" alt="Abhishank Gaba" style="width:100%">
         <div class="w3-container">
-          <h3>Abhishank Gaba/h3>
+          <h3>Abhishank Gaba</h3>
           <p class="w3-opacity">Software</p>
           <p>To Fill. </p>
         </div>
@@ -122,7 +121,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <div class="w3-card-4">
         <img src="/screenshots/Amy.jpg" alt="Amy Hu" style="width:100%">
         <div class="w3-container">
-          <h3>Amy Hu/h3>
+          <h3>Amy Hu</h3>
           <p class="w3-opacity">Software</p>
           <p>To Fill. </p>
         </div>
