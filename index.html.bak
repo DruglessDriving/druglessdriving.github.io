@@ -87,6 +87,18 @@ p.ex1{
 
 		<p class="ex1" align=LEFT>The number of people that see the use of cannabis as impacting their lives has increased due to the media attention brought on by its legalization. The popular public opinion is that local law enforcement are ill-prepared for the changes . 
 		</p>
+
+		<h3>Failure Analysis</h3>
+	    <p class="ex1" align=LEFT> The currently practiced countermeasures by authorities against impaired driving are a series of roadside tests, which may be in the form of a standardized field sobriety test, or providing a breath or saliva sample to screening equipment. Roadside testing fails to solve the impaired driving because it is a reactive measure to catch impaired drivers already behind the wheel rather than a proactive, preventative measure that prevents the act of driving under the influence. </p>
+
+		<p class="ex1" align=LEFT> The Ontario Ignition Interlock program attempts to reduce the number of repeat offences since 16% of DUI accusations are directed at previously-accused individuals. But despite the introduction of the program adding the extra condition of alcohol-sobriety to operating a vehicle, it has not solved the issue of driving while intoxicated. The program targets previously convicted individuals; the program is again a reactive solution to the first DUI offence. It does however prevent the would-be following incidents (the proactive portion of the solution). </p>
+
+		<p class="ex1" align=LEFT> Other reasons why it does not solve the problem are that the installed devices are alcohol-specific, which is insufficient for the newly-legalized cannabis and all other prescription drugs; or that the program is not mandatory. If you should choose not to install the device in your car, the alternative is an honour-based system where you do not drive until the condition is removed from your licence .</p> 
+
+		<p class="ex1" align=LEFT> Alcohol breathalyzers are not standard in all vehicles because people do not like the idea of being controlled and regulated. Furthermore, the seamlessness of their integration and ease of use are low while the time required to conduct a test is high. This would be a nuisance to someone trying to start the car once a day, forget multiple times a day. Lastly, from a pure quantitative point of view, the number of deaths due to intoxicated driving do not justify the increased cost of installation coming straight out of taxpayer money. </p>
+
+		<p class="ex1" align=LEFT> Drug detection integration needs to be as seamless as the fingerprint scanner, virtual assistants, or face ID on your phone, where a user may suspect that his information may be recorded and used for unapproved purposes, but the ease of use provided triumphs his concerns. </p>
+
     </div>
 
   
@@ -103,11 +115,11 @@ p.ex1{
 }
 </style>
 
-	<img class="marginauto" src="file:///C:/Users/alexn/Documents/GitHub/druglessdriving.github.io/screenshots/Group43.jpg" alt="OurTeam" width="1000" height="600">
+	<img class="marginauto" src="screenshots/Group43.jpg" alt="OurTeam" width="1000" height="600">
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="file:///C:/Users/alexn/Documents/GitHub/druglessdriving.github.io/screenshots/Alex.jpg" alt="Alex Huang" style="width:100%">
+        <img src="screenshots/Alex.jpg" alt="Alex Huang" style="width:100%">
         <div class="w3-container">
           <h3>Alex Huang</h3>
           <p class="w3-opacity">Mechanical</p>
@@ -118,7 +130,7 @@ p.ex1{
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="file:///C:/Users/alexn/Documents/GitHub/druglessdriving.github.io/screenshots/Aravinth.jpg" alt="Aravinth Vijay" style="width:100%">
+        <img src="/screenshots/Aravinth.jpg" alt="Aravinth Vijay" style="width:100%">
         <div class="w3-container">
           <h3>Aravinth Vijay</h3>
           <p class="w3-opacity">Electrical</p>
@@ -129,7 +141,7 @@ p.ex1{
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="file:///C:/Users/alexn/Documents/GitHub/druglessdriving.github.io/screenshots/Abhishank.jpg" alt="Abhishank Gaba" style="width:100%">
+        <img src="screenshots/Abhishank.jpg" alt="Abhishank Gaba" style="width:100%">
         <div class="w3-container">
           <h3>Abhishank Gaba</h3>
           <p class="w3-opacity">Software</p>
@@ -141,7 +153,7 @@ p.ex1{
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="file:///C:/Users/alexn/Documents/GitHub/druglessdriving.github.io/screenshots/Amy.jpg" alt="Amy Hu" style="width:100%">
+        <img src="screenshots/Amy.jpg" alt="Amy Hu" style="width:100%">
         <div class="w3-container">
           <h3>Amy Hu</h3>
           <p class="w3-opacity">Software</p>
