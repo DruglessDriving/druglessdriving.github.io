@@ -81,11 +81,11 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Who We Are</span>
     </div>
 
-	<img src="screenshots/Group43.jpg" alt="OurTeam" width="1000" height="600">
+	<img src="screenshots/Group43.jpg" alt="OurTeam" width="1000" height="600" class="center>
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="/screenshots/Alex.jpg" alt="Alex Huang" style="width:100%">
+        <img src="screenshots/Alex.jpg" alt="Alex Huang" style="width:100%">
         <div class="w3-container">
           <h3>Alex Huang</h3>
           <p class="w3-opacity">Mechanical</p>
@@ -96,7 +96,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="/screenshots/Aravinth.jpg" alt="Aravinth Vijay" style="width:100%">
+        <img src="screenshots/Aravinth.jpg" alt="Aravinth Vijay" style="width:100%">
         <div class="w3-container">
           <h3>Aravinth Vijay</h3>
           <p class="w3-opacity">Electrical</p>
@@ -107,7 +107,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="/screenshots/Abhishank.jpg" alt="Abhishank Gaba" style="width:100%">
+        <img src="screenshots/Abhishank.jpg" alt="Abhishank Gaba" style="width:100%">
         <div class="w3-container">
           <h3>Abhishank Gaba</h3>
           <p class="w3-opacity">Software</p>
@@ -119,7 +119,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 
     <div class="w3-third w3-margin-bottom">
       <div class="w3-card-4">
-        <img src="/screenshots/Amy.jpg" alt="Amy Hu" style="width:100%">
+        <img src="screenshots/Amy.jpg" alt="Amy Hu" style="width:100%">
         <div class="w3-container">
           <h3>Amy Hu</h3>
           <p class="w3-opacity">Software</p>
