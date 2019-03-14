@@ -1,0 +1,88 @@
+.nav-bar {
+	background-color: #91f7b5;
+	font-size: 16px;
+	padding: 0;
+}
+
+.nav-bar .nav-left {
+	float: left;
+	width: 50%;
+}
+
+.nav-bar .nav-right {
+	float: right;
+	width: 50%;
+	display: inline-flex;
+}
+
+.nav-bar .nav-block:hover {
+	background-color: #59c17e;
+	color: #fff;
+}
+
+.nav-bar .nav-button {
+	padding: 6px;
+	vertical-align: middle;
+	overflow: hidden;
+	text-decoration: none;
+	color: inherit;
+	background-color: inherit;
+	text-align: center;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+.nav-bar .nav-left .nav-button {
+	text-align: left;
+}
+
+.nav-bar .nav-block {
+	display: block;
+	width: 100%;
+}
+
+.nav-bar .nav-button .nav-icon {
+	margin: 5px;
+}
+
+.nav-bar .nav-button .nav-item-desc {
+	display: none;
+}
+
+@media screen and (min-width: 600px) {
+	.nav-bar {
+		font-size: 16px;
+	}
+
+	.nav-bar .nav-left {
+		width: 25%;
+	}
+
+	.nav-bar .nav-right {
+		width: 75%;
+	}
+	
+	.nav-bar .nav-button {
+		padding: 10px 3px;
+	}
+
+	.nav-bar .nav-button .nav-item-desc {
+		display: inline;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.nav-bar {
+		font-size: 18px;
+	}
+
+	.nav-bar .nav-button{
+		padding: 16px;
+	}
+}
+
+@media screen and (min-width: 830px) {
+	.nav-bar {
+		padding: 0 5%;
+	}
+}
