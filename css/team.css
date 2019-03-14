@@ -1,5 +1,5 @@
 .marginauto {
-  margin: 10px 5%;
+  margin: 10px auto 20px;
   display: block;
 }
 
@@ -11,6 +11,10 @@
 	text-align: center;
 	font-size: 0.9em;
 	font-style: italic;
+}
+
+.member-group {
+	display: inherit;
 }
 
 .member-card {
@@ -45,6 +49,10 @@
 		padding: 0 5%
 	}
 
+	.member-group {
+		display: inline-block;
+	}
+
 	.member-card .member-photo {
 		width: 37%;
 		float: left;
@@ -59,11 +67,24 @@
 	}
 }
 
+
+@media screen and (min-width: 768px) {
+	.member-card {
+		width: 49%;
+		margin: 0.5%;
+		float: left;
+	}
+}
+
 @media screen and (min-width: 992px) {
 	.member-card {
 		width: 24%;
 		margin: 0.5%;
 		float: left;
+	}
+
+	.member-group {
+		display: inherit;
 	}
 
 	.member-card .member-photo {
