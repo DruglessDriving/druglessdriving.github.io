@@ -6,6 +6,11 @@
 <link rel="stylesheet" href="./index_files/w3.css">
 <link rel="stylesheet" href="./index_files/css">
 <link rel="stylesheet" href="./index_files/font-awesome.min.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/nav.css">
+<link rel="stylesheet" href="./css/team.css">
+<link rel="stylesheet" href="./css/news.css">
+<link rel="stylesheet" href="./css/index.css">
 <style>
 html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
 .mySlides {display:none}
@@ -20,19 +25,27 @@ p.ex1{
 </head><body>
 
 <!-- Links (sit on top) -->
-<div class="w3-top">
-  <div class="w3-row w3-large w3-light-grey">
-    <div class="w3-col s3">
-      <a href="file:///C:/Users/alexn/Documents/GitHub/druglessdriving.github.io/index.html#" class="w3-button w3-block">Home</a>
+<div class="w3-top nav-bar">
+  <div class="w3-row nav-left">
+    <div class="w3-col nav-item">
+      <a href="#" class="nav-button nav-block"><i class="nav-icon fas fa-car"></i>Drugless Driving</a>
     </div>
-    <div class="w3-col s3">
-      <a href="file:///C:/Users/alexn/Documents/GitHub/druglessdriving.github.io/index.html#plans" class="w3-button w3-block">Problem</a>
+  </div>
+  <div class="w3-row nav-right">
+    <div class="w3-col nav-item">
+      <a href="#idea" class="nav-button nav-block"><i class="nav-icon fas fa-lightbulb"></i><span class="nav-item-desc">Solution</span></a>
     </div>
-    <div class="w3-col s3">
-      <a href="file:///C:/Users/alexn/Documents/GitHub/druglessdriving.github.io/index.html#about" class="w3-button w3-block">Team</a>
+    <div class="w3-col nav-item">
+      <a href="#plans" class="nav-button nav-block"><i class="nav-icon far fa-question-circle"></i><span class="nav-item-desc">Problem</span></a>
     </div>
-    <div class="w3-col s3">
-      <a href="file:///C:/Users/alexn/Documents/GitHub/druglessdriving.github.io/index.html#contact" class="w3-button w3-block">News</a>
+    <div class="w3-col nav-item">
+      <a href="#news" class="nav-button nav-block"><i class="nav-icon far fa-newspaper"></i><span class="nav-item-desc">News</span></a>
+    </div>
+    <div class="w3-col nav-item">
+      <a href="#about" class="nav-button nav-block"><i class="nav-icon fas fa-users"></i><span class="nav-item-desc">Team</span></a>
+    </div>
+    <div class="w3-col nav-item">
+      <a href="#contact" class="nav-button nav-block"><i class="nav-icon far fa-envelope"></i><span class="nav-item-desc">Contact Us</span></a>
     </div>
   </div>
 </div>
@@ -41,123 +54,155 @@ p.ex1{
 <div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
 
   <div class="w3-panel">
-    <h1><b>Drugless Driving - Impaired Driving Prevention</b></h1>
-      <p> Drugless Driving is a universal interface focused on preventing impaired driving by inhibiting the operation of a vehicle while intoxicated. <br> Drugless Driving conducts a breath test compatible with multiple drug detection devices to measure the level of impairment in an individual, <br> along with facial recognition to prevent cheating. We have a vision where impaired drivers will never be behind the wheel.</p>
-    </div>
-
+    <h1 class="title"><b>Drugless Driving</b></h1>
+    <h3 class="sub-title">Impaired Driving Prevention</h3>
+    <p class="ex1"> Drugless Driving is a universal interface focused on preventing impaired driving by inhibiting the operation of a vehicle while the driver is intoxicated. Drugless Driving conducts a breath test compatible with multiple drug-detection devices to measure the level of impairment in an individual, and pairs the process with facial recognition to prevent cheating. We have a vision where impaired drivers will never be behind the wheel.</p>
   </div>
+
   <!-- Grid -->
-  <div class="w3-row w3-container">
+  <div class="w3-row w3-container" id="idea">
     <div class="w3-center w3-padding-64">
-      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">The Idea</span>
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">The Idea<i class="icon far fa-lightbulb"></i></span>
     </div>
-    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16">
+    <img class="solution-img" src="./screenshots/infographics.png" />
+    <div class="w3-col l3 m6 w3-light-grey w3-container w3-padding-16 pale-green">
       <h3>Universality</h3>
-      <p>Drugless Driving acts as a platform which can connect to a multitude of drug detection devices for various substances dependant on the specific customer. </p>
+      <p>Drugless Driving acts as a platform which can connect to a multitude of drug-detection devices for various substances dependant on the specific customer.</p>
     </div>
 
-    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16">
+    <div class="w3-col l3 m6 w3-grey w3-container w3-padding-16 light-green">
       <h3>Prevention</h3>
-      <p> Drugless Driving focuses on prevention of vehicle access before impaired drivers get on the road, and use occasional checks to ensure that they stay sober.  </p>
+      <p> Drugless Driving focuses on prevention of vehicle access before impaired drivers get on the road, and use occasional checks to ensure that they stay sober.</p>
     </div>
 
-    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16">
+    <div class="w3-col l3 m6 w3-dark-grey w3-container w3-padding-16 green">
       <h3>Precise</h3>
       <p>Drugless Driving uses face recognition technology to confirm that the person who passes the verification is the one at the wheel of the vehicle. Cheating will not be a concern for the system.</p>
     </div>
 
-    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16">
+    <div class="w3-col l3 m6 w3-black w3-container w3-padding-16 dark-green">
       <h3>Seamless</h3>
-      <p> The druglesss driving procedure is quick and intiuitive, with all the components integrated seamlessly into the body of the vehicle making the checks a marginal delay.</p>
+      <p> The Druglesss Driving procedure is quick and intiuitive, with all the components integrated seamlessly into the body of the vehicle making the checks a marginal delay.</p>
     </div>
   </div>
 
   <!-- Grid -->
   <div class="w3-row-padding" id="plans">
     <div class="w3-center w3-padding-64">
-      <h3>Problem Definition</h3>
-      <p class="ex1" align=LEFT> Drug-related driving incidents has doubled in Canada in 2017 compared to in 2009. After Canada legalized cannabis, the National Cannabis Survey reported, <q> About one in seven (14%) cannabis users with a driver's licence reported driving within two hours of using.</q>. Drugs impair judgement, coordination, and reaction times. On average, 4 Canadians are killed daily due to impaired driving. In 2014, 299 road deaths were caused by drunk drivers, 618 deaths were caused by drugged drivers, and 356 deaths were caused by drivers impaired by both. Furthermore, cannabis accounted for half of the drug-related deaths. Impaired driving affects not only drivers but also passengers, bystanders, and family members. <q> One in three Canadians report that they have ridden in a vehicle operated by an impaired driver.</q> </p>
+      <h3>Problem Definition<i class="icon far fa-question-circle"></i></h3>
+      <p class="ex1" align=LEFT> In Canada, drug-related driving incidents doubled in 2017 compared to in 2009. After legalizing cannabis, the National Cannabis Survey reported, <q>About one in seven (14%) cannabis users with a driver's licence reported driving within two hours of using.</q> Drugs impair judgement, coordination, and reaction times. On average, 4 Canadians are killed daily due to impaired driving. In 2014, 299 road deaths were caused by drunk drivers, 618 deaths were caused by drugged drivers, and 356 deaths were caused by drivers impaired by both. Furthermore, cannabis accounted for half of the drug-related deaths. Impaired driving affects not only drivers but also passengers, bystanders, and family members. <q>One in three Canadians report that they have ridden in a vehicle operated by an impaired driver.</q> </p>
 
-	  <h3>The History of Impaired Driving</h3>
-	  <p class="ex1" align=LEFT>The problem of impaired driving in Canada was deemed a criminal offence in 1921 and nationally recognized as a criminal act in 1925 . Despite the laws, more than 70,000 DUI incidents were still being reported in 2015, almost a century later. </p>
+  	  <h3>The History of Impaired Driving<i class="icon fas fa-history"></i></h3>
+  	  <p class="ex1" align=LEFT>The problem of impaired driving in Canada was deemed a criminal offence in 1921 and nationally recognized as a criminal act in 1925. Despite the laws, more than 70,000 DUI incidents were still being reported in 2015, almost a century later.</p>
 
-		<p class="ex1" align=LEFT>The breath alcohol ignition interlock device, BAIID, was invented in 1969 that prevents alcohol-impaired driving. In 2000, Ontario amended its laws to form the ignition interlock program which requires a convicted person of an impaired driving offence to install a BAIID into their car. Companies like Alcolock and Sober Steering are in the market solving the problem of alcohol impaired driving via such ignition interlock devices. These companies directly connect an alcohol-detection device with a locking mechanism into the vehicle to prevent it from starting if the driver tests positively over the defined limit. </p>
+  		<p class="ex1" align=LEFT>The breath-alcohol ignition interlock device, BAIID, that prevents alcohol-impaired driving was invented in 1969. In 2000, Ontario amended its laws to form the Ignition Interlock program which requires a convicted person of an impaired-driving offence to install a BAIID into their car. Companies like Alcolock and Sober Steering are in the market for solving the problem of alcohol-impaired driving via such ignition interlock devices. These companies directly connect an alcohol-detection device with a locking mechanism into the vehicle to prevent it from starting if the driver tests positively over the defined limit.</p>
 
-		<p class="ex1" align=LEFT>Driving under the influence had been heavily focused on alcohol because it was the only legal intoxicating substance. The recent legality changes increase the sense of urgency for adequate vehicle-drug testing. Drug-related fatalities occur twice as often as alcohol-related ones, of which 50% involve marijuana. While this problem affects the masses, previous convicted drivers, public bus drivers, and truck drivers, often engulfed in the high stress drug subculture, pose a higher risk of driving under the influence and harming a greater amount of people, the solution should be targeted towards them first. </p>
+  		<p class="ex1" align=LEFT>Driving-under-the-influence had been heavily focused on alcohol because it was the only legal intoxicating substance. The recent legality changes increase the sense of urgency for adequate vehicle-drug testing. Drug-related fatalities occur twice as often as alcohol-related ones, of which 50% involve marijuana. While this problem affects the masses, previous convicted drivers, public bus drivers, and truck drivers, often engulfed in the high-stress drug subculture, pose a higher risk of driving under the influence and harming a greater amount of people. The solution should be targeted towards them first.</p>
 
-		<p class="ex1" align=LEFT>The number of people that see the use of cannabis as impacting their lives has increased due to the media attention brought on by its legalization. The popular public opinion is that local law enforcement are ill-prepared for the changes . 
-		</p>
+  		<p class="ex1" align=LEFT>The number of people that see the use of cannabis as impacting their lives has increased due to the media attention brought on by its legalization. The popular public opinion is that local law enforcement are ill-prepared for the changes. 
+  		</p>
 
-		<h3>Failure Analysis</h3>
-	    <p class="ex1" align=LEFT> The currently practiced countermeasures by authorities against impaired driving are a series of roadside tests, which may be in the form of a standardized field sobriety test, or providing a breath or saliva sample to screening equipment. Roadside testing fails to solve the impaired driving because it is a reactive measure to catch impaired drivers already behind the wheel rather than a proactive, preventative measure that prevents the act of driving under the influence. </p>
+  		<h3>Failure Analysis<i class="icon fas fa-exclamation-triangle"></i></h3>
+	    <p class="ex1" align=LEFT>The currently-practiced countermeasures by authorities against impaired driving are a series of roadside tests, which may be in the form of a standardized field sobriety test, or providing a breath or saliva sample to screening equipment. Roadside testing fails to solve the impaired driving because it is a reactive measure to catch impaired drivers already behind the wheel rather than a proactive, preventative measure that prevents the act of driving under the influence. </p>
 
-		<p class="ex1" align=LEFT> The Ontario Ignition Interlock program attempts to reduce the number of repeat offences since 16% of DUI accusations are directed at previously-accused individuals. But despite the introduction of the program adding the extra condition of alcohol-sobriety to operating a vehicle, it has not solved the issue of driving while intoxicated. The program targets previously convicted individuals; the program is again a reactive solution to the first DUI offence. It does however prevent the would-be following incidents (the proactive portion of the solution). </p>
+  		<p class="ex1" align=LEFT>The Ontario Ignition Interlock program attempts to reduce the number of repeat offences since 16% of DUI accusations are directed at previously-accused individuals. But despite the introduction of the program adding the extra condition of alcohol-sobriety to operating a vehicle, it has not solved the issue of driving while intoxicated. The program is again a reactive solution to the first DUI offence. It does however prevent the would-be following incidents (the proactive portion of the solution).</p>
 
-		<p class="ex1" align=LEFT> Other reasons why it does not solve the problem are that the installed devices are alcohol-specific, which is insufficient for the newly-legalized cannabis and all other prescription drugs; or that the program is not mandatory. If you should choose not to install the device in your car, the alternative is an honour-based system where you do not drive until the condition is removed from your licence .</p> 
+  		<p class="ex1" align=LEFT>Other reasons why it does not solve the problem are that the installed devices are alcohol-specific, which is insufficient for the newly-legalized cannabis and all other prescription drugs; or that the program is not mandatory. If you should choose not to install the device in your car, the alternative is an honour-based system where you do not drive until the condition is removed from your licence.</p> 
 
-		<p class="ex1" align=LEFT> Alcohol breathalyzers are not standard in all vehicles because people do not like the idea of being controlled and regulated. Furthermore, the seamlessness of their integration and ease of use are low while the time required to conduct a test is high. This would be a nuisance to someone trying to start the car once a day, forget multiple times a day. Lastly, from a pure quantitative point of view, the number of deaths due to intoxicated driving do not justify the increased cost of installation coming straight out of taxpayer money. </p>
+  		<p class="ex1" align=LEFT>Alcohol breathalyzers are not standard in all vehicles because people do not like the idea of being controlled and regulated. Furthermore, the seamlessness of their integration and ease of use are low while the time required to conduct a test is high. This would be a nuisance to someone trying to start the car once a day, forget multiple times a day. Lastly, from a pure quantitative point of view, the number of deaths due to intoxicated driving do not justify the increased cost of installation coming straight out of taxpayer money.</p>
 
-		<p class="ex1" align=LEFT> Drug detection integration needs to be as seamless as the fingerprint scanner, virtual assistants, or face ID on your phone, where a user may suspect that his information may be recorded and used for unapproved purposes, but the ease of use provided triumphs his concerns. </p>
+  		<p class="ex1" align=LEFT>Drug detection integration needs to be as seamless as the fingerprint scanner, virtual assistants, or face ID on your phone, where a user may suspect that his information may be recorded and used for unapproved purposes, but the ease of use provided triumphs his concerns.</p>
 
     </div>
 
-  
-  <!-- Grid -->
-  <div class="w3-row-padding" id="about">
-    <div class="w3-center w3-padding-64">
-      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Who We Are</span>
+  <!-- News -->
+  <div class="w3-center w3-padding-64" id="news">
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">News<i class="icon far fa-newspaper"></i></span>
+    <div class="news">
+      <p class="news-date">March 14, 2019</p>
+      <h3 class="news-title">Mechatronics Engineering Symposium</h3>
+      <p>It's finally here! The big day is tomorrow, where we'll be demo-ing our solution at the University of Waterloo Mechatronics Engineering Capstone Design Project Symposium 2019. The event will be held on the <b>2nd floors of Engineering 5 and Engineer 7 between 1PM and 4:30PM</b>. Come check us out.<br>
+      <br>Want more information? Hop over to the <a href="https://uwaterloo.ca/capstone-design/events/mechatronics-engineering-capstone-design-symposium-1">UW event page</a>.</p>
     </div>
-
-	<style>
-.marginauto {
-    margin: 10px auto 20px;
-    display: block;
-}
-</style>
-
-	<img class="marginauto" src="screenshots/Group43.jpg" alt="OurTeam" width="1000" height="600">
-
-    <div class="w3-third w3-margin-bottom">
-      <div class="w3-card-4">
-        <img src="screenshots/Alex.jpg" alt="Alex Huang" style="width:100%">
-        <div class="w3-container">
-          <h3>Alex Huang</h3>
-          <p class="w3-opacity">Mechanical</p>
-          <p> Alex has a long history in mechanical engineering and design dating all the way back to FIRST Robotic competitions in high school. In addition to CAD design, Alex is practiced in the use of force effect analysis software for structural analysis in several workplace environments as a mechanical engineer. Alex has worked in several companies such as Flex, TTC and Curtis-Wright working on components for vehicles such as ships and cars.</p>
-        </div>
-      </div>
+    <div class="news">
+      <p class="news-date">March 11, 2019</p>
+      <h3 class="news-title">Esch Awards Round 2</h3>
+      <p>Once again, we've got exciting news! Drugless Driving has been invited to pitch at Round 2 of the Norman Esch Entrepreneurship Award Competition! Quite similar to the Venture Creation fund, the Esch is aimed at turning UW's Engineering Capstone projects into real start-ups. There will be at least 6 awards between $5k and $10k and 27 teams will be moving on to this second round. The big challenge for this pitch is going to be the length. Each pitch is only going to be 90 seconds long so we're going to have to be super concise!</p>
     </div>
-
-    <div class="w3-third w3-margin-bottom">
-      <div class="w3-card-4">
-        <img src="screenshots/Aravinth.jpg" alt="Aravinth Vijay" style="width:100%">
-        <div class="w3-container">
-          <h3>Aravinth Vijay</h3>
-          <p class="w3-opacity">Electrical</p>
-          <p> Aravinth has strong mechanical and electrical background knowledge and has skills such as soldering, wiring, 3D modeling and material analysis. VJ has past experience designing PCBs for running motors and Arduinos for a variety of projects. </p>
-        </div>
-      </div>
+    <div class="news">
+      <p class="news-date">March 06, 2019</p>
+      <img class="news-img" src="./news/2019-03-06-palihapitiya-fund.png" />
+      <h3 class="news-title">Pitching at Palihapitiya Venture Creation!</h3>
+      <p class="news-body">We're super excited to be annoucing that we're <em>in</em>. We've passed the application phase for what students at UW call the Social Capitalist fund and will be pitching for a chance to win the Palihapitiya Venture Creation fund of $50,000! This amount is admittedly the largest opportunity we've had to date so the nerves are all over us.<br>
+      <br>The pitch competition is targeted towards all of the capstone projects from UWaterloo's Engineering department to support their journeys to becoming a start-up. As Waterloo soon-to-be alumni, we have a duty to promote this incredible chance to our fellow Engineering students. For more information, head over to <a href="https://uwaterloo.ca/engineering/entrepreneurship/funding/palihapitiya-venture-creation-fund">their webpage</a>.<br>
+      <br>Many of the other pitch contestants are capstone-project-cum-start-up friends of ours, so we'll be rooting for them as well as our very own. Unfortunately this pitch is closed to the public but please cheer us all on in spirit!<br></p>
     </div>
-
-    <div class="w3-third w3-margin-bottom">
-      <div class="w3-card-4">
-        <img src="screenshots/Abhishank.jpg" alt="Abhishank Gaba" style="width:100%">
-        <div class="w3-container">
-          <h3>Abhishank Gaba</h3>
-          <p class="w3-opacity">Software</p>
-          <p>Abhishank Gaba has extensive experience in integrating biosensing technology into textiles, in order to detect ECG, EMG, body temperature along with intoxication levels with respect to specific drugs such as THC, cocaine, opiates, and amphetamines. Furthermore, he has experience with building accurate regression models, finding markers that have an 86% correlation to early onset of Cancer. From a software architecture point of view, Abhishank has extensive formal experience with transactional database development (Aeroplan Reward Miles), focusing on securely optimizing the reading and writing of data. The concepts of data abstraction, encapsulation, and retrieval directly carry over to this project where large amounts of data needs to be quickly retrieved at once (comparison of face done to millions of other users) and one subset of code cannot access and corrupt the other (facial recrognition starts manipulating GPS coordinates). </p>
-        </div>
-      </div>
+    <div class="news">
+      <p class="news-date">March 05, 2019</p>
+      <img class="news-img" src="./news/2019-03-05-vff-pitch.png" />
+      <h3 class="news-title">Velocity Funds $5K</h3>
+      <p class="news-body">Great pitch by Abhishank tonight at the VFF Qualifiers! Way to go! Although we didn't make it to the finals, we're still really grateful for the opportunity. We've learned lots from this experience and can only improve! This is just the beginning for us.<br>
+      <br>Keep in mind that today was just day 1 of the qualifiers! There are more pitches to come tomorrow, some from our fellow start-ups friends. We'll be cheering them on from the sidelines.</p>
+    </div>
+    <div class="news">
+      <p class="news-date">February 22, 2019</p>
+      <img class="news-img" src="./news/2019-02-22-velocity-logo.png" />
+      <h3 class="news-title">First Live Pitch</h3>
+      <p class="news-body">Interested in Drugless Driving? Come out to watch us pitch at the UW Velocity Funds $5K Qualifiers Day 1! One of our co-founders, Abhishank, will provide a 3-minute overview of our solution and business model. This will be our first time pitching at a fund competition. We're absolutely stoked! And crazy nervous!<br>
+      <br>Velocity is a well-known entrepreneurship program that has nurtured many, many start-ups. And they offer this pitch opportunity every term. For more information, head on over to <a href="http://velocityfundfinals.com/">their website</a>.<br>
+      <br>2 nights of qualifiers, 20 odd teams, and only 10 will move on to the finals. Mark the date! Find us at the University of Waterloo’s Quantum and Nano Computing building in room 0101 on <b>Tuesday, March 5th, 2019</b>.</p>
     </div>
   </div>
 
-    <div class="w3-third w3-margin-bottom">
-      <div class="w3-card-4">
-        <img src="screenshots/Amy.jpg" alt="Amy Hu" style="width:100%">
-        <div class="w3-container">
-          <h3>Amy Hu</h3>
-          <p class="w3-opacity">Software</p>
-          <p>Amy Hu regularly creates scalable, production-grade software with experiences primarily in the front-end web development space. She is a strong object-oriented programmer with knowledge in a wide-variety of fields, such as fuzzy logic computer intelligence, real-time systems, and feedback control systems. She has worked closely with User Research and User Experience designers; and is exploring the space of UCD methods to ensure excellence in customer experience and feedback.</p>
+  <!-- Grid -->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Who We Are<i class="icon fas fa-users"></i></span>
+    </div>
+
+    <img class="marginauto team-photo" src="screenshots/Group43.jpg" alt="The Drugless Driving Team" />
+    <p class="team-photo-caption">Drugless Driving's 4 co-founders: Alex Huang, Aravinth Vijayakumar, Abhishank Gaba, and Amy Hu.</p>
+
+    <p class="ex1">The four co-founders of Drugless Driving are fourth-year Mechatronics Engineering Students at the University of Waterloo, working on their capstone project. Interested in learning more about our team? Keep reading.</p>
+
+    <div class="member-group">
+      <div class="w3-margin-bottom member-card">
+        <img class="member-photo" src="screenshots/ahuang.png" alt="Alex Huang">
+        <div class="w3-container member-info">
+          <h3 class="member-name">Alex Huang</h3>
+          <p class="w3-opacity member-specialty">Mechanical<i class="member-icon fas fa-tools"></i></p>
+          <p class="member-desc">Alex has a long history in mechanical engineering and design dating all the way back to FIRST Robotic competitions in high school. In addition to CAD design, he is practiced in the use of force effect analysis software for structural analysis in several workplace environments as a mechanical engineer. Alex has worked in several companies such as Flex, TTC, and Curtiss-Wright, working on components for vehicles such as ships and cars.</p>
+        </div>
+      </div>
+
+      <div class="w3-margin-bottom member-card">
+        <div class="member-photo">
+          <img class="vertical-photo" src="screenshots/avijay.jpg" alt="Aravinth Vijayakumar">
+        </div>
+        <div class="w3-container member-info">
+          <h3 class="member-name">Aravinth Vijayakumar</h3>
+          <p class="w3-opacity member-specialty">Electrical<i class="member-icon fas fa-car-battery"></i></p>
+          <p class="member-desc">Aravinth has strong mechanical and electrical background knowledge and has skills such as soldering, wiring, 3D modeling, and material analysis. VJ has past experience designing PCBs for running motors and Arduinos for a variety of projects. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="member-group">
+      <div class="w3-margin-bottom member-card">
+        <img class="member-photo" src="screenshots/agaba.jpg" alt="Abhishank Gaba">
+        <div class="w3-container member-info">
+          <h3 class="member-name">Abhishank Gaba</h3>
+          <p class="w3-opacity member-specialty">Software<i class="member-icon fas fa-sitemap"></i></p>
+          <p class="member-desc">Abhishank Gaba has extensive experience in integrating biosensing technology into textiles in order to detect ECG, EMG, and body temperature coupled with intoxication levels of specific drugs such as THC, cocaine, opiates, and amphetamines. He also has experience with building accurate regression models that found00 markers that have an 86% correlation to the early onset of Cancer. From a software architecture point-of-view, Abhishank has extensive formal experience with transactional database development working on the Aeroplan Reward Miles program, with a focus on securely optimizing the reading and writing of data. The concepts of data abstraction, encapsulation, and retrieval directly carry over to this project where large amounts of data need to be quickly retrieved at once and where code isolation is required to avoid corruption, respectively to compare the user's face to millions of others and to modularize the software components.</p>
+        </div>
+      </div>
+
+      <div class="w3-margin-bottom member-card">
+        <img class="member-photo" src="screenshots/ahu.png" alt="Amy Hu">
+        <div class="w3-container member-info">
+          <h3 class="member-name">Amy Hu</h3>
+          <p class="w3-opacity member-specialty">Software<i class="member-icon fas fa-sitemap"></i></p>
+          <p class="member-desc">Amy Hu regularly creates scalable, production-grade software with experiences primarily in the front-end web development space. She is a strong object-oriented programmer with knowledge in a wide-variety of fields, such as fuzzy logic computer intelligence, real-time systems, and feedback control systems. She has worked closely with User Research and User Experience designers; and is exploring the space of UCD methods to ensure excellence in customer experience and feedback.</p>
         </div>
       </div>
     </div>
@@ -166,9 +211,7 @@ p.ex1{
 
   <!-- Contact -->
   <div class="w3-center w3-padding-64" id="contact">
-    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">News</span>
-	<p class="ex1" align=LEFT>Updates coming soon!</p>
-    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us</span>
+    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Contact Us<i class="icon far fa-envelope"></i></span>
   </div>
 
   <form class="w3-container" action="file:///C:/action_page.php" target="_blank">
@@ -196,12 +239,8 @@ p.ex1{
 <!-- Footer -->
 
 <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
-  <h4>Footer</h4>
-  <a href="file:///C:/Users/alexn/Documents/GitHub/druglessdriving.github.io/index.html#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <div class="w3-xlarge w3-section">
-
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
+  <h4>Drugless Driving</h4>
+  <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
  
 </footer>
 

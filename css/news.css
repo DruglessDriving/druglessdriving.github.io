@@ -1,0 +1,28 @@
+.news {
+	margin: 10px 5%;
+	display: inline-block;
+	text-align: left;
+	padding: 1em 2em;
+	box-shadow: 0 4px 10px rgba(66,183,56,0.2), 0 4px 20px rgba(66,183,56,0.16);
+	border-radius: 15px;
+}
+
+.news .news-date {
+	font-weight: bold;
+}
+
+.news .news-title {
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+.news .news-img {
+	width: 38%;
+	float: left;
+	margin-right: 2%; 
+}
+
+.news .news-body {
+	width: 60%;
+	float: right;
+}
