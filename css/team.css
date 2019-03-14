@@ -1,0 +1,78 @@
+.marginauto {
+  margin: 10px auto 20px;
+  display: block;
+}
+
+.team-photo {
+	width: 100%;
+}
+
+.team-photo-caption {
+	text-align: center;
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+.member-card {
+	width: 100%;
+	display: inline-block;
+	box-shadow: 0 4px 10px rgba(0,0,0,0.2), 0 4px 20px rgba(0,0,0,0.16);
+	border-radius: 15px;
+}
+
+.member-card .member-photo {
+	width: 90%;
+	margin: 5%;
+	border-radius: 15px 15px 0 0;
+}
+
+.member-card .member-photo .vertical-photo {
+	width: 100%;
+	padding: 0 12.5%;
+}
+
+.member-card .member-info {
+	padding: 1em 2em;
+}
+
+.member-card .member-info .member-icon {
+	margin: 5px 0 5px 5px;
+}
+
+@media screen and (min-width: 600px) {
+	.team-photo {
+		padding: 0 5%
+	}
+
+	.member-card .member-photo {
+		width: 37%;
+		float: left;
+		margin: 3%;
+		margin-right: 0;
+		border-top-right-radius: 0;
+	}
+
+	.member-card .member-info {
+		width: 60%;
+		float: left;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.member-card {
+		width: 24%;
+		margin: 0.5%;
+		float: left;
+	}
+
+	.member-card .member-photo {
+		width: 90%;
+		margin: 5%;
+		border-radius: 15px 15px 0 0;
+	}
+
+	.member-card .member-info {
+		width: 100%;
+		padding: 1em 2em;
+	}
+}
