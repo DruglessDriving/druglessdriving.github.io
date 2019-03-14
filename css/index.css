@@ -1,0 +1,28 @@
+h1 {
+	margin: 5%;
+	text-align: center;
+}
+
+h3 {
+	text-align: center;
+}
+
+.pale-green {
+	color: #000 !important;
+	background-color: #e2ffed !important;
+}
+
+.light-green {
+	color: #000 !important;
+	background-color: #91f7b5 !important;
+}
+
+.green {
+	color: #fff !important;
+	background-color: #59c17e !important;
+}
+
+.dark-green {
+	color: #fff !important;
+	background-color: #0e7748 !important;
+}
